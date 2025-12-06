@@ -1,0 +1,34 @@
+# Claude Code 관련 파일
+.claude/
+*.claude
+
+# 생성된 시각화 이미지 파일
+*.png
+
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# 임시 파일
+*.tmp
+*.bak
+nul
+
+# IDE 관련
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS 관련
+.DS_Store
+Thumbs.db
