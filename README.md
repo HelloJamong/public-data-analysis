@@ -63,15 +63,38 @@ public-data-analysis/
 
 ## 🚀 실행 방법
 
-### 필요한 라이브러리 설치
+### 방법 1: 로컬 환경에서 실행
+
+#### 필요한 라이브러리 설치
 ```bash
 pip install pandas matplotlib seaborn numpy
 ```
 
-### 스크립트 실행
+#### 스크립트 실행
 ```bash
 python analyze_drunk_driving.py
 ```
+
+### 방법 2: 구글 Colab에서 실행 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
+
+1. **Colab 파일 사용**
+   - `analyze_drunk_driving_colab.py` 파일을 Colab에 업로드
+   - 또는 GitHub에서 직접 열기
+
+2. **데이터 파일 준비**
+   - 스크립트 실행 시 파일 업로드 창이 나타남
+   - `경찰청_음주운전_20241231.csv` 파일 선택하여 업로드
+
+3. **실행**
+   - 모든 셀을 순서대로 실행
+   - 시각화가 Colab 노트북에 바로 표시됨
+   - 원하는 경우 생성된 이미지를 다운로드 가능
+
+#### Colab 버전의 주요 차이점
+- **한글 폰트**: 맑은 고딕 대신 나눔고딕 자동 설치
+- **파일 업로드**: `files.upload()` 사용하여 대화형 업로드
+- **시각화 표시**: `plt.show()`로 노트북에 바로 표시
+- **파일 다운로드**: `files.download()`로 이미지 다운로드 가능
 
 ## 💡 주요 기능
 
